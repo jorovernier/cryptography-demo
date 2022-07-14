@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>duckBay</title>
+    <link rel="stylesheet" href="duckbay.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./img/duckbay.png" id="logo"/>
+        </a>
+    </header>
+    <main id="dd-main">
+        <section id="left-panel">
+            <div class="left-styles" id="user-info">
+                <h1>User Information</h1>
+            </div>
+            <form class="left-styles" id="add-duck">
+                <h1>Add to Collection</h1>
+                <input class="base" id="add-input" placeholder="image url" type="text"/>
+                <button id="duck-submit" class="submit">Add Duck</button>
+            </form>
+        </section>
+        <section id="watch-list">
+            <h1>Your Collection</h1>
+            <section id="ducks"></section>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./duckdash.js"></script>
+</body>

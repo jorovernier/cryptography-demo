@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "username": "iLoveDucks",
+        "email": "ducks@gmail.com",
+        "password": "$2a$05$mUHxT9iIYIzrul4VmZLwPeMVD8BNwJznE0bsocvgTxomqfym1hkGa",
+        "ducks": ["https://cdn11.bigcommerce.com/s-nf2x4/images/stencil/1280x1280/products/1003/9644/Red-Rubber-Duck-Adline-3__63200.1655746371.jpg?c=2","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB-mdpoFGqlhirStnGf2pRecx-QElHN_JpEaR0xBSymcmEB0B9y_qsQQlE9_8OXQlSenc&usqp=CAU","https://cdn.shoplightspeed.com/shops/605879/files/29450535/1024x1024x2/schylling-associates-cowboy-rubber-duck.jpg"]
+    }
+]

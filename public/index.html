@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>duckBay</title>
+    <link rel="stylesheet" href="duckbay.css">
+</head>
+<body>
+    <script>window.localStorage.clear();</script>
+    <header>
+        <img src="./img/duckbay.png" id="logo"/>
+    </header>
+    <main id="index-main">
+        <h1>Welcome to duckBay!</h1>
+        <h2>Sign in or create an account.</h2>
+
+        <section id="forms">
+            <form class="form-style" id="login-form">
+                <label>Login</label>
+                <input class="login-input base" id="l-username" placeholder="Username" type="text"/>
+                <input class="login-input base" id="l-password" placeholder="Password" type="text"/>
+                <button class="submit" id="login-submit" type="submit">Sign In</button>
+            </form>
+            <form class="form-style" id="reg-form">
+                <label>Register</label>
+                <input class="reg-input base" id="r-username" placeholder="Username" type="text"/>
+                <input class="reg-input base" id="r-email" placeholder="Email" type="text"/>
+                <input class="reg-input base" id="r-password" placeholder="Password" type="text"/>
+                <button class="submit" id="reg-submit" type="submit">Sign Up</button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
